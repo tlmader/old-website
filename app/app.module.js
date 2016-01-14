@@ -5,7 +5,7 @@ angular.module('personalWebApp.directives', []);
 angular.module('personalWebApp.filters', []);
 angular.module('personalWebApp.services', []);
 
-var app = angular.module('personalWebApp', [
+angular.module('personalWebApp', [
 	'personalWebApp.controllers',
 	'personalWebApp.directives',
 	'personalWebApp.filters',
