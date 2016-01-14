@@ -35,9 +35,9 @@
             <div class="collapse navbar-collapse" ng-controller="NavController">
                 <ul class="nav navbar-nav">
                     <li class="{ active: isActive('/')}"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="{ active: isActive('/projects')}"></a>Projects</li>
-                    <li><a href="{ active: isActive('/games')}"></a>Games</li>
-                    <li><a href="{ active: isActive('/photos')}"></a>Photos</li>
+                    <li><a href="{ active: isActive('/projects')}">Projects</a></li>
+                    <li><a href="{ active: isActive('/games')}">Games</a></li>
+                    <li><a href="{ active: isActive('/photos')}">Photos</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="https://github.com/Tlmader">GitHub</a></li>
@@ -63,13 +63,12 @@
 <!-- LIBRARIES -->
 <script src="lib/angular.min.js"></script>
 <script src="lib/angular-route.min.js"></script>
-<script src="lib/jquery-2.1.4.min.js"></script>
 <script src="lib/bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
 
 <script src="app/app.js"></script>
 <script src="app/app.module.js"></script>
 <script src="app/app.routes.js"></script>
-<script src="app/home/HomeController.js"></script>
-<script src="app/shared/NavController.js"></script>
+<script src="app/home/home-controller.js"></script>
+<script src="app/shared/nav-controller.js"></script>
 
 </html>
