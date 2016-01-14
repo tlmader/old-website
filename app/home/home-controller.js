@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('personalWebApp').controller('HomeController', function($scope) {
+angular.module('personalWebApp.controllers').controller('HomeController', function($scope) {
 
 
 });
